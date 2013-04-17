@@ -4,6 +4,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
+import com.study.corejava.CoreJava.calendar.GregorianCalendarTest;
+import com.study.corejava.CoreJava.date.DateUtilsTest;
 import com.study.corejava.CoreJava.object.EmployeeTest;
 import com.study.corejava.CoreJava.object.ManagerTest;
 
@@ -16,7 +18,9 @@ import com.study.corejava.CoreJava.object.ManagerTest;
 @RunWith(Suite.class)
 @SuiteClasses({
 	EmployeeTest.class,
-	ManagerTest.class
+	ManagerTest.class,
+	DateUtilsTest.class,
+	GregorianCalendarTest.class
 	})
 public class TestSuite {
 
